@@ -4,12 +4,15 @@ A modular tool to scrape Reddit posts/comments with PRAW, store them (SQLite/JSO
 
 ## Repository Structure
 
-architecture.md # Architecture docs
-examples.py # Example usage
-main.py # Main pipeline script
-README.md # Project overview
-requirements.txt # Dependencies
-src/ # Core modules
-test_sample.py # Sample test
-tests/ # Test suite
-todo.md # Development notes
+```
+reddit-scraper/
+├── architecture.md # Architecture docs
+├── examples.py # Example usage
+├── main.py # Main pipeline script
+├── README.md # Project overview
+├── requirements.txt # Dependencies
+├── src/ # Core modules
+├── test_sample.py # Sample test
+├── tests/ # Test suite
+└── todo.md # Development notes
+```
