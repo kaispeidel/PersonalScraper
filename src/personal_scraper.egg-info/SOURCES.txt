@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/error_handling.py
+src/preprocessing.py
+src/scraper.py
+src/storage.py
+src/personal_scraper.egg-info/PKG-INFO
+src/personal_scraper.egg-info/SOURCES.txt
+src/personal_scraper.egg-info/dependency_links.txt
+src/personal_scraper.egg-info/requires.txt
+src/personal_scraper.egg-info/top_level.txt

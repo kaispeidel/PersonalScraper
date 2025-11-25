@@ -1,0 +1,28 @@
+[project]
+name = "personal-scraper"
+version = "0.1.0"
+description = "A personal scraper project"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Kai Speidel", email = "you@example.com" }]
+license = { text = "MIT" }
+
+dependencies = [
+  "praw==7.8.1",
+  "SQLAlchemy==2.0.41",
+  "pandas==2.2.2",
+  "nltk==3.9.1",
+  "spacy==3.8.7",
+  "python-dotenv==1.1.0",
+  "tqdm==4.66.4",
+  "colorlog==6.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest==8.3.5",
+]
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"

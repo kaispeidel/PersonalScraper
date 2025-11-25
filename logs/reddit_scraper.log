@@ -1,0 +1,26 @@
+2025-11-25 16:30:52 [INFO] root: Logging configured: console=info, file=debug (logs/reddit_scraper.log)
+2025-11-25 16:30:52 [INFO] root: Starting Reddit scraper pipeline for r/MachineLearning
+2025-11-25 16:30:52 [INFO] root: Initializing Reddit scraper
+2025-11-25 16:30:52 [CRITICAL] root: Pipeline failed: Missing Reddit API credentials. Provide them as parameters or in .env file.
+Traceback (most recent call last):
+  File "/Users/kaispeidel/Library/Mobile Documents/com~apple~CloudDocs/Documents/code/PersonalScraper/main.py", line 73, in main
+    scraper = RedditScraper(
+        subreddit_name=args.subreddit,
+        rate_limit_delay=1.0
+    )
+  File "/Users/kaispeidel/Library/Mobile Documents/com~apple~CloudDocs/Documents/code/PersonalScraper/src/scraper.py", line 67, in __init__
+    raise ValueError("Missing Reddit API credentials. Provide them as parameters or in .env file.")
+ValueError: Missing Reddit API credentials. Provide them as parameters or in .env file.
+2025-11-25 16:32:32 [INFO] root: Logging configured: console=info, file=debug (logs/reddit_scraper.log)
+2025-11-25 16:32:32 [INFO] root: Starting Reddit scraper pipeline for r/MachineLearning
+2025-11-25 16:32:32 [INFO] root: Initializing Reddit scraper
+2025-11-25 16:32:32 [CRITICAL] root: Pipeline failed: Missing Reddit API credentials. Provide them as parameters or in .env file.
+Traceback (most recent call last):
+  File "/Users/kaispeidel/Library/Mobile Documents/com~apple~CloudDocs/Documents/code/PersonalScraper/main.py", line 73, in main
+    scraper = RedditScraper(
+        subreddit_name=args.subreddit,
+        rate_limit_delay=1.0
+    )
+  File "/Users/kaispeidel/Library/Mobile Documents/com~apple~CloudDocs/Documents/code/PersonalScraper/src/scraper.py", line 67, in __init__
+    raise ValueError("Missing Reddit API credentials. Provide them as parameters or in .env file.")
+ValueError: Missing Reddit API credentials. Provide them as parameters or in .env file.
